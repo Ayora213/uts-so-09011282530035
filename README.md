@@ -19,7 +19,7 @@ Proyek ini berisi tiga *shell script* untuk membackup catatan praktikum.
   dengan format `tanggal jam | nama arsip | jumlah file | ukuran arsip`.
 - `script/backup_loop.sh`: menjalankan `backup.sh` berulang dengan `while true`
   dan `sleep $INTERVAL` (bawaan 60 detik). Dijalankan di background dengan `&`.
-- `script/alias.sh`: berisi alias `bkXXX` untuk menjalankan `backup.sh`.
+- `script/alias.sh`: berisi alias `bk035` untuk menjalankan `backup.sh`.
 
 ## 3. Cara Menjalankan
 
