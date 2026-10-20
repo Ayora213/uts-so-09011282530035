@@ -7,4 +7,4 @@
 # Alias "bk" + 3 digit terakhir NIM untuk menjalankan backup.sh.
 # Baris alias di bawah juga harus disalin ke ~/.bashrc.
 
-alias bkXXX='$HOME/uts-so-09011282530035/script/backup.sh'
+alias bk035='$HOME/uts-so-09011282530035/script/backup.sh'
