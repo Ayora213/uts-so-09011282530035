@@ -71,7 +71,7 @@ tar -tzvf "$ARCHIVE"
 
 # ===== LOG =====
 # >> menambah baris di akhir file (tidak menimpa isi lama)
-SIZE=$(du -h "$ARCHIVE" | cut -f1)   # ukuran arsip, contoh: 4.0K
+SIZE=$(LC_ALL=C du -h "$ARCHIVE" | cut -f1)   # ukuran arsip, contoh: 4.0K
 echo "$LOG_TIME | $ARCHIVE_NAME | $COUNT | $SIZE" >> "$LOG_FILE"
 
 # ===== FITUR: ROTASI ARSIP =====
